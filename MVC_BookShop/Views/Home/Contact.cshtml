@@ -1,0 +1,20 @@
+﻿@{
+    ViewBag.Title = "Contact Us";
+}
+<h2>@ViewBag.Title.</h2>
+
+<address>
+    1 Harbour Rd.<br />
+    Sydney, NSW 2000<br />
+    <abbr title="Phone">P:</abbr>
+    +61 400.222.030
+</address>
+
+<address>
+    <strong>Support:</strong>   <a href="mailto:Support@onlinebookshop.com">Support@onlinebookshop.com</a><br />
+    <strong>Marketing:</strong> <a href="mailto:Marketing@onlinebookshop.com">Marketing@onlinebookshop.com</a>
+</address>
+
+<div>
+    @Html.ActionLink("Back to Book list", "Index", "BookLists")
+</div>
